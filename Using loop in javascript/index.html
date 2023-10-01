@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Loops</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="loops-in-acion.js" defer></script>
+  </head>
+  <body>
+    <h1>Javascript Loops in Action</h1>
+    <section id="calculator">
+      <h2>Javascript Calculator</h2>
+      <p>
+        Determine the su of all numbers (beginning at zero) upto a number of
+        your choice.
+      </p>
+      <div class="control">
+        <label for="user-number">Your Number</label>
+        <input type="number" id="user-number" />
+      </div>
+      <button>Calculate Sum</button>
+      <p id="calculated-sum" class="output"></p>
+    </section>
+
+    <section id="highlight-links">
+      <h2>Highlight Links</h2>
+      <button>Highlight all links in the text</button>
+      <p>
+        this is some text that also contains useful links (like
+        <a href="">this one</a> ) that actually lead nowshere. They lead nowhere because
+        this text and example is <strong>not</strong> about the anchor elemen or
+        the link destinations but instead about Javascript.
+      </p>
+      <p>
+        Because you can use
+        <a href="https://developer.mozilla.org/en-US/">Javascripy</a> (okay,
+        this link actually <strong>does</strong> lead somewhere) not just for
+        funny demos or useless examplams but for real useful things - like
+        highlighting all the links in text.
+      </p>
+      <p>
+        You can dive even deeper into Javascript with one f our bestselling,
+        deep-dive, Javascript-focused.
+        <a href="https://academind.com/courses/">cources</a>.
+      </p>
+    </section>
+
+    <section id="user-data">
+      <h2>Your Information</h2>
+      <button>Display User Data</button>
+      <ul id="output-user-data"></ul>
+    </section>
+
+    <section id="statistics">
+      <h2>Statisics</h2>
+      <p>
+        Test your luck and find out how many dice rolls (1-6 dice) it takes you
+        to roll a certain number (between 1 and 6).
+      </p>
+      <div class="control">
+        <label for="user-target-number">Your Target Number</label>
+        <input type="number" min="1" max="6" id="user-target-number" />
+      </div>
+      <button>Roll the Dice</button>
+      <ul id="dice-rolls"></ul>
+      <p>
+        It took you <span id="output-total-rolls" class="output">X</span> rolls
+        to roll a <span id="output-target-number" class="output">Y</span>.
+      </p>
+    </section>
+  </body>
+</html>
